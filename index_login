@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Halaman Login</title>
+    <style type="text/css">
+    .menu {
+        text-align: center;
+        background-color: darkslategrey;
+        font-size:18px;
+        padding-top: 17pt;
+        }
+
+    .button {
+        background-color: white;
+        padding: 5px;
+        border-color: black;
+        text-decoration: none;
+        }
+
+    .button:hover {
+        background-color: blue;
+        }
+
+   .login-form {
+            background-color: lightgray;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .login-form form {
+            text-align: left;
+        }
+
+        .login-form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: lightskyblue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+<div class="menu">
+    <a href="fauzan.html" class="button">Lihat CV Saya</a>
+</div>
+<h2>Halaman Login</h2>
+<div class="login-form">
+    <form action="Fauzan.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Masuk">
+    </form>
+</div>
+<footer>
+    <p align="center">
+        <font align="center" font color="blue">
+            <b>This Website created by: Muhammad Fauzan As Sahabierin 2023</b> || Created with HTML <a href="https://www.instagram.com/m.fauzanasshabierin/">IG:m.fauzanasshabierin</a>
+        </font>
+    </p>
+</footer>
+</body>
+</html>
